@@ -28,11 +28,6 @@ header{
     border-bottom: 3px solid black;
 }
 
-#title{
-    font-weight: 500;
-    font-size: 1.1em;
-}
-
 nav ul {
     display: flex;
     align-items: center;
@@ -45,9 +40,10 @@ nav ul li{
     transition: 0.5s;
 }
 
-nav ul li:hover{
-    background-color: whitesmoke;
-    outline: 0px 0px 1px 0px black solid;
+#title{
+    font-weight: 500;
+    font-size: 1.1em;
+    cursor: default;
 }
 
 #menu{
@@ -59,7 +55,7 @@ nav ul li:hover{
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.384);
     backdrop-filter: blur(3px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.452);
+    box-shadow: -1px 0px rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -76,6 +72,7 @@ nav ul li:hover{
     border: none;
     padding: 10px;
     transition: 0.6s;
+    cursor: pointer;
 }
 
 #menu-btn svg{
@@ -91,4 +88,35 @@ nav ul li:hover{
 
 .hidden{
     display: none !important;
+}
+
+#close-menu-btn{
+    background-color: transparent;
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+#close-menu-btn:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+#menu-home{
+    border-top: 2px solid rgba(0, 0, 0, 0);
+}
+
+#menu-home:hover{
+    border-top: 2px solid black;
+}
+
+.menu-options{
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 0s
+}
+
+.menu-options:hover{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
