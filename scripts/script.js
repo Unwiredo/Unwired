@@ -1,8 +1,19 @@
 const menuBtn = document.getElementById('menu-btn');
 const menu = document.querySelector('#menu');
+const pathBox = document.getElementById('path-box');
+const programmerBtn = document.getElementById('programmer-path-btn');
+const contentCreatorBtn = document.getElementById('content-creator-path-btn');
 
 menuBtn.addEventListener('click', () => {
     showMenu();
+});
+
+programmerBtn.addEventListener('click', () => {
+    showProgrammerPath();
+});
+
+contentCreatorBtn.addEventListener('click', () => {
+    showCreatorPath();
 });
 
 function showMenu() {
@@ -24,4 +35,14 @@ function closeMenu() {
     menu.classList.toggle('hidden');
     menu.innerHTML = '';
 }
+
+function showProgrammerPath() {
+    pathBox.innerHTML = ``;
+}
+
+function showCreatorPath(){
+    pathBox.innerHTML = ``;
+}
+
+
 
