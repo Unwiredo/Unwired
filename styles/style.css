@@ -13,6 +13,10 @@
     font-family:  "Poppins", sans-serif;
 }
 
+body{
+    background-color: rgb(243, 243, 243);
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -20,7 +24,7 @@ header{
 }
 
 #header-container{
-    background-color: rgba(221, 221, 221, 0.438);
+    background-color: rgba(198, 198, 198, 0.438);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,6 +44,10 @@ nav ul li{
     transition: 0.5s;
 }
 
+nav ul li a {
+    display: flex;
+}
+
 #title{
     font-weight: 500;
     font-size: 1.1em;
@@ -53,7 +61,7 @@ nav ul li{
     height: 100vh;
     width: 200px;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.384);
+    background-color: rgba(233, 233, 233, 0.574);
     backdrop-filter: blur(3px);
     box-shadow: -1px 0px rgb(0, 0, 0);
     display: flex;
@@ -73,6 +81,7 @@ nav ul li{
     padding: 10px;
     transition: 0.6s;
     cursor: pointer;
+    background-color: transparent;
 }
 
 #menu-btn svg{
@@ -99,7 +108,7 @@ nav ul li{
 
 #close-menu-btn:hover {
     cursor: pointer;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(176, 176, 176);
 }
 
 #menu-home{
@@ -113,10 +122,43 @@ nav ul li{
 .menu-options{
     border-top: 2px solid rgba(0, 0, 0, 0);
     border-bottom: 2px solid rgba(0, 0, 0, 0);
-    transition: 0s
+    transition: 0s;
+}
+
+.menu-text {
+    margin-left: 20px;
 }
 
 .menu-options:hover{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section-image{
+    background-color: rgb(237, 237, 237);
+    background-image: url(../images/Nakoshi_Susumu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 6px 6px black;
+    transition: 0.6s;
+}
+
+.section-image:hover{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px black;
+}
+
