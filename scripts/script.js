@@ -37,12 +37,13 @@ function closeMenu() {
 }
 
 function showProgrammerPath() {
-    pathBox.innerHTML = ``;
+    pathBox.innerHTML = `
+        <div></div>
+    `;
 }
 
 function showCreatorPath(){
-    pathBox.innerHTML = ``;
+    pathBox.innerHTML = `
+        
+    `;
 }
-
-
-
