@@ -171,12 +171,12 @@ main{
 #section-greet{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     border: 3px solid black;
     box-shadow: 3px 3px black;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(239, 238, 238);
     width: 290px;
     transition: 0.4s;
 }
@@ -188,6 +188,10 @@ main{
 .box-title{
     padding: 10px;
     cursor: default;
+}
+
+.box-title h1{
+    font-size: 1.7em;
 }
 
 .box-paragraph{
@@ -216,6 +220,30 @@ main{
 }
 
 #click-btns{
+    font-weight: 600;
+}
+
+#path-box{
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-title{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 15px;
+    padding: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+
+#projects-title h2{
     font-weight: 600;
 }
 

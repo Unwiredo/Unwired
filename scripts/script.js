@@ -38,7 +38,6 @@ function closeMenu() {
 
 function showProgrammerPath() {
     pathBox.innerHTML = `
-        <div></div>
     `;
 }
 
@@ -46,4 +45,8 @@ function showCreatorPath(){
     pathBox.innerHTML = `
         
     `;
+}
+
+function closePath() {
+
 }
