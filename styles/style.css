@@ -241,8 +241,8 @@ main{
 }
 
 .section-title{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     padding-left: 15px;
     padding: 5px;
     width: 100vw;
@@ -262,13 +262,13 @@ main{
     width: 100vw;
     min-height: 300px;
     background-color: rgb(222, 222, 222);
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
 
 .scroller-inner{
     display: flex;
     align-items: center;
-    animation: scroll 28s linear infinite;
+    animation: scroll 70s linear infinite;
 }
 
 .project-box{
@@ -276,8 +276,8 @@ main{
     height: 250px;
     margin: 10px;
     background: #e8e8e8;
-    border: 1px solid black;
-    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
 }
 
 #tools-section{
@@ -295,6 +295,7 @@ main{
 
 #tools-title h2{
     margin-left: 4px;
+    cursor: default;
 }
 
 #tools-container{
@@ -311,8 +312,8 @@ main{
     width: 80vw;
     height: 400px;
     background-color: rgb(215, 215, 215);
-    border: 2px solid black;
-    box-shadow: 2px 2px black;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
 }
 
 .tool-box{
@@ -327,8 +328,8 @@ main{
     position: relative;
     width: 90px;
     height: 90px;
-    border: 2px solid black;
-    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
 }
 
 .tool-1{
@@ -338,7 +339,50 @@ main{
 }
 
 .tool-2{
-    background-image: url(../images/Javascript\ Sticker-Photoroom.png);
-    background-position: center;
-    background-size: 110% 110%;
+    background-image: url(../images/HTMLlogo.png);
+    background-position: 50% 44%;
+    background-size: 130% 130%;
+}
+
+.tool-3{
+    background-image: url(../images/cssLogo.png);
+    background-position: 42% 50%;
+    background-size: 120%;
+}
+
+.tool-4{
+    background-image: url(../images/GitLogo.png);
+    background-color: rgb(26, 26, 26);
+    background-position: 42% 50%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tool-5{
+    background-color: rgb(0, 0, 0);
+    background-position: 42% 50%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.tool-6{
+    background-color: rgb(0, 0, 0);
+    background-position: 42% 50%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(195, 195, 195);
+    border-top: 3px solid black;
+    height: 40px;
+}
+
+footer p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
 }
