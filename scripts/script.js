@@ -1,7 +1,9 @@
+import { programmerPathHTML } from "./data.js";
+
 const menuBtn = document.getElementById('menu-btn');
 const menu = document.querySelector('#menu');
-const pathBox = document.getElementById('path-box');
-const programmerBtn = document.getElementById('programmer-path-btn');
+const pathContainer = document.getElementById('path-box-container')
+const programmerBtn = document.getElementById('programmer-btn');
 const contentCreatorBtn = document.getElementById('content-creator-path-btn');
 
 menuBtn.addEventListener('click', () => {
@@ -37,8 +39,7 @@ function closeMenu() {
 }
 
 function showProgrammerPath() {
-    pathBox.innerHTML = `
-    `;
+    pathContainer.innerHTML = programmerPathHTML;
 }
 
 function showCreatorPath(){
