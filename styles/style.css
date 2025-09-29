@@ -24,6 +24,16 @@ body{
     background-color: rgb(243, 243, 243);
 }
 
+body::selection{
+    background-color: rgba(0, 0, 0, 0.893);
+    color: rgb(201, 201, 201);
+}
+
+.bold-and-underlined{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -228,6 +238,80 @@ main{
 
 #click-btns{
     font-weight: 600;
+}
+
+#about-me{
+    margin-top: 30px;
+}
+
+.about-me-title{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: rgb(211, 211, 211);
+}
+
+#about-me-h2{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.about-me-title h2{
+    font-weight: 400;
+    margin-left: 3px;
+    cursor: default;
+}
+
+.about-me-content{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50px;
+    height: 200px;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px black;
+    margin-right: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+.about-me-icons{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.about-me-icons img{
+    width: 35px;
+    height: 35px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.about-me-icons img:hover{
+    transform: scale(1.09);
+}
+
+.about-me-paragraph{
+    margin-left: 8px;
+    border-left: 1px solid black;
+    font-size: 0.9em;
+    font-weight: 500;
+    width: 200px;
+    text-align: start;
+}
+
+.about-me-paragraph p{
+    margin-left: 12px;
 }
 
 #path-box{
