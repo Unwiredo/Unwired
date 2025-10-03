@@ -135,4 +135,16 @@ export const programmerPathHTML = `
                 </div>
             </div>
         </section>
+        <section id="next-step-box">
+            <div class="next-step-container">
+                <div class="next-step-paragraph">
+                    <h2>What do you want to do next?</h2>
+                </div>
+                <div class="next-step-image"></div>
+                <div class="next-step-buttons">
+                    <button id="close-everthing">Leave</button>
+                    <button id="content-creator-path-btn">Content creator</button>
+                </div>
+            </div>
+        </section>
 `

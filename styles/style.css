@@ -461,17 +461,47 @@ main{
     background-repeat: no-repeat;
 }
 
+#next-step-box{
+    background-color: rgb(226, 226, 226);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-step-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.next-step-paragraph h2{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.next-step-image{
+    background-image: url();
+}
+
 footer{
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgb(195, 195, 195);
     border-top: 3px solid black;
-    height: 40px;
+    height: 100px;
 }
 
 footer p{
+    margin-top: 10px;
     font-size: 0.8em;
     font-weight: 600;
     color: rgb(0, 0, 0);
