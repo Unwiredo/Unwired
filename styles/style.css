@@ -461,34 +461,28 @@ main{
     background-repeat: no-repeat;
 }
 
-#next-step-box{
-    background-color: rgb(226, 226, 226);
+#next-step-button-container{
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.next-step-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 300px;
-    border: 3px solid black;
-    box-shadow: 4px 4px black;
+.next-step-button{
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 2px 2px;
+    transition: 0.4s;
 }
 
-.next-step-paragraph h2{
-    font-size: 1.2em;
-    font-weight: 300;
+.next-step-button:hover{
+    background-color: rgb(209, 209, 209);
+    box-shadow: 3px 3px;
+    transform: scale(1.02);
 }
 
-.next-step-image{
-    background-image: url();
-}
 
 footer{
     margin-top: 40px;
