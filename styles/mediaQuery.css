@@ -10,6 +10,10 @@
 
 
 @media(min-width: 480px){
+    #header-container{
+        height: 60px;
+    }
+
     .section-image{
         width:  350px;
         height: 500px;
@@ -61,6 +65,11 @@
     .tool{
         height: 110px;
         width: 110px;
+    }
+
+    .next-step-button{
+        font-size: 1em;
+        padding: 10px;
     }
 
     .hideOnMobile{
