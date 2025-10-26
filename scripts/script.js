@@ -40,6 +40,10 @@ function closeMenu() {
 
 function showProgrammerPath() {
     pathContainer.innerHTML = programmerPathHTML;
+    const resetBtn = document.getElementById('reset-button');
+    resetBtn.addEventListener('click', () => {
+        pathContainer.innerHTML = '';
+    })
 }
 
 function showCreatorPath(){
@@ -49,5 +53,5 @@ function showCreatorPath(){
 }
 
 function closePath() {
-
+    pathContainer.innerHTML = '';
 }

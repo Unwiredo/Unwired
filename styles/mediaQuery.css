@@ -7,3 +7,6 @@
         display: flex;
     }
 }
+
+@media(max-width: 876px){
+}
