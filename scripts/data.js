@@ -136,7 +136,7 @@ export const programmerPathHTML = `
             </div>
         </section>
         <div id="next-step-button-container">
-        <button class="next-step-button">Content Creator</button>
-        <button id="reset-button" class="next-step-button">Leave</button>
+            <button class="next-step-button">Content Creator</button>
+            <button id="reset-button" class="next-step-button">Leave</button>
         <div>
 `

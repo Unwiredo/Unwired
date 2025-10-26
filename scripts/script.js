@@ -5,6 +5,7 @@ const menu = document.querySelector('#menu');
 const pathContainer = document.getElementById('path-box-container')
 const programmerBtn = document.getElementById('programmer-btn');
 const contentCreatorBtn = document.getElementById('content-creator-path-btn');
+let isActive = false;
 
 menuBtn.addEventListener('click', () => {
     showMenu();
@@ -39,11 +40,17 @@ function closeMenu() {
 }
 
 function showProgrammerPath() {
-    pathContainer.innerHTML = programmerPathHTML;
-    const resetBtn = document.getElementById('reset-button');
-    resetBtn.addEventListener('click', () => {
-        pathContainer.innerHTML = '';
-    })
+    if(!isActive){
+        pathContainer.innerHTML = programmerPathHTML;
+        isActive = true;
+        const resetBtn = document.getElementById('reset-button');
+        resetBtn.addEventListener('click', () => {
+            pathContainer.innerHTML = '';
+        });
+    }else{
+        pathContainer.innerHTML = "";
+        isActive = false;
+    }
 }
 
 function showCreatorPath(){

@@ -1,4 +1,4 @@
-@media(max-width: 440px){
+@media(min-width: 0px){
     .hideOnMobile{
         display: none;
     }
@@ -8,5 +8,66 @@
     }
 }
 
-@media(max-width: 876px){
+
+@media(min-width: 480px){
+    .section-image{
+        width:  350px;
+        height: 500px;
+    }
+
+    #section-greet{
+        width: 350px;
+    }
+
+    .box-btn{
+        padding: 8px;
+    }
+
+    .about-me-title{
+        padding: 10px;
+    }
+
+    .about-me-social-media{
+        width: 60px;
+    }
+
+    .about-me-paragraph{
+        width: 300px;
+        font-size: 1em;
+    }
+
+    .section-title{
+        padding: 10px;
+    }
+
+    .projects-bar{
+        min-height: 350px;
+    }
+
+    .project-box{
+        min-width: 350px;
+        height: 300px;
+        margin: 15px;
+    }
+
+    #tools-title h2{
+        font-size: 2em;
+    }
+
+    .tools{
+        height: 500px;
+    }
+
+    .tool{
+        height: 110px;
+        width: 110px;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu-btn{
+        display: flex;
+    }
 }
